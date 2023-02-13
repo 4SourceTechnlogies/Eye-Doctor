@@ -618,6 +618,10 @@ body{
         .testimonialRight{
             position: static;
         }
+
+        .kyd{
+            margin-top: 0;
+        }
     }
 
 /* testimonial section */
