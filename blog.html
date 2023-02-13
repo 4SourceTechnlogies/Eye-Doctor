@@ -112,8 +112,8 @@
             <div id="bCarousel" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <div class="bMainCard">
-                            <div class="blogCardLeft wBg">
+                        <div class="bMainCard" data-aos="fade-right">
+                            <div class="blogCardLeft" data-aos="fade-right" data-aos-delay="400">
                                 <div class="blogCardHead">
                                     <h1>09</h1>
                                     <h2>June</h2>
@@ -136,8 +136,8 @@
                             </div>
                         </div>
                     
-                        <div class="bMainCard">
-                            <div class="blogCardLeft wBg">
+                        <div class="bMainCard" data-aos="fade-right" data-aos-delay="800">
+                            <div class="blogCardLeft" data-aos="fade-right" data-aos-delay="1200">
                                 <div class="blogCardHead">
                                     <h1>09</h1>
                                     <h2>June</h2>
@@ -149,7 +149,9 @@
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur illo laboriosam illum
                                     facilis, quae modi libero doloremque porro eos, vel esse distinctio! Accusamus laboriosam
                                     earum molestias doloribus vitae nesciunt quaerat, eligendi obcaecati iusto a ipsam excepturi
-                                    quis hic laborum quia!</p>
+                                    quis hic laborum quia!
+                                </p>
+                                <button class="readMoreBtn fillBlue">read more</button>
                             </div>
                             <div class="blogCardRight">
                                 <div class="blogCardRightImg">
@@ -158,8 +160,8 @@
                             </div>
                         </div>
                     
-                        <div class="bMainCard">
-                            <div class="blogCardLeft wBg">
+                        <div class="bMainCard" data-aos="fade-right" data-aos-delay="1100">
+                            <div class="blogCardLeft" data-aos="fade-right" data-aos-delay="1500">
                                 <div class="blogCardHead">
                                     <h1>09</h1>
                                     <h2>June</h2>
@@ -171,7 +173,9 @@
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur illo laboriosam illum
                                     facilis, quae modi libero doloremque porro eos, vel esse distinctio! Accusamus laboriosam
                                     earum molestias doloribus vitae nesciunt quaerat, eligendi obcaecati iusto a ipsam excepturi
-                                    quis hic laborum quia!</p>
+                                    quis hic laborum quia!
+                                </p>
+                                <button class="readMoreBtn fillBlue">read more</button>
                             </div>
                             <div class="blogCardRight">
                                 <div class="blogCardRightImg">
@@ -219,6 +223,7 @@
                                     facilis, quae modi libero doloremque porro eos, vel esse distinctio! Accusamus laboriosam
                                     earum molestias doloribus vitae nesciunt quaerat, eligendi obcaecati iusto a ipsam excepturi
                                     quis hic laborum quia!</p>
+                                    <button class="readMoreBtn fillBlue">read more</button>
                             </div>
                             <div class="blogCardRight">
                                 <div class="blogCardRightImg">
@@ -241,6 +246,7 @@
                                     facilis, quae modi libero doloremque porro eos, vel esse distinctio! Accusamus laboriosam
                                     earum molestias doloribus vitae nesciunt quaerat, eligendi obcaecati iusto a ipsam excepturi
                                     quis hic laborum quia!</p>
+                                <button class="readMoreBtn fillBlue">read more</button>
                             </div>
                             <div class="blogCardRight">
                                 <div class="blogCardRightImg">
@@ -288,6 +294,7 @@
                                     facilis, quae modi libero doloremque porro eos, vel esse distinctio! Accusamus laboriosam
                                     earum molestias doloribus vitae nesciunt quaerat, eligendi obcaecati iusto a ipsam excepturi
                                     quis hic laborum quia!</p>
+                                    <button class="readMoreBtn fillBlue">read more</button>
                             </div>
                             <div class="blogCardRight">
                                 <div class="blogCardRightImg">
@@ -310,6 +317,7 @@
                                     facilis, quae modi libero doloremque porro eos, vel esse distinctio! Accusamus laboriosam
                                     earum molestias doloribus vitae nesciunt quaerat, eligendi obcaecati iusto a ipsam excepturi
                                     quis hic laborum quia!</p>
+                                    <button class="readMoreBtn fillBlue">read more</button>
                             </div>
                             <div class="blogCardRight">
                                 <div class="blogCardRightImg">
@@ -779,6 +787,13 @@
         <div class="text-muted">© 2019 eye doctors institute . All Rights Reserved.</div>
         <div class="text-muted">Digital Partner 4source Technologies</div>
     </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800
+        });
+    </script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
         integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
