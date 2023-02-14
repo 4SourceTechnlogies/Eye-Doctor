@@ -175,8 +175,8 @@ button:hover {
     color: white !important;
 }
 
-.navbar-nav {
-    font-family: 'prestigeElite';
+.navbar-nav .nav-link {
+    font-family: 'prestigeElite'!important;
 }
 
 .topHeader {
@@ -1629,4 +1629,42 @@ section {
         display: flex;
         align-items: center;
     }
+    .teamMainMT{
+        display: none;
+    }
+
+    @media screen and (min-width: 992px) and (max-width: 1180px) {
+        .teamMain{
+            padding: 0;
+        }
+    }
+
+    @media screen and (max-width:991px) {
+        .teamMain{
+            display: none;
+        }
+        .teamMainMT{
+            display: block;
+            margin-top: 4rem;
+        }
+        .teamCard{
+            box-shadow: rgb(0 0 0 / 0.24) 0px 3px 8px;
+            padding: 1rem;
+            column-gap: 1rem;
+        }
+        .teamLeft{
+            position: relative;
+            flex: 1 0 40%;
+            align-self: center;
+        }
+        .drImg{
+            top: -2.5rem;
+            width: 90%;
+        }
+        .teamRight{
+            box-shadow: none;
+            padding: 0;
+        }
+    }
+    
 /* team Page */
