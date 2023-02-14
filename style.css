@@ -1572,3 +1572,61 @@ section {
     }
     }
 /* Specialities Page */
+
+/* team page */
+    .teamPage .mainWrapper{
+        padding: 2rem;
+    }
+    .teamPage .topText h1{
+        font-size: 3rem;
+    }
+    .teamCard{
+        display: flex;
+    }
+    .teamPage img{
+        max-width: 100%;
+    }
+    .teamMain{
+        padding: 2rem 4rem;
+        margin-top: 4rem;
+    }
+    .teamLeft{
+        flex: 1 0 25%;
+    }
+    .teamRight{
+        padding: 1rem 1rem 1rem 6rem;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+    .teamWrapper{
+        position: relative;
+        margin-bottom: 4rem;
+    }
+    .drImg{
+        position: absolute;
+        top: -1.2rem;
+        left: 10%;
+        width: 20%;
+    }
+    .docName h4{
+        font-family: 'poppins';
+        font-weight: 800;
+        font-size: 1.65rem;
+        color: #07a9f0;
+    }
+    .docTitle h5{
+        font-weight: 600;
+        font-size: 1.35rem;
+        color: #2f3c68;
+    }
+    .docSubtitle h6{
+        font-size: 1.25rem;
+        font-weight: 800;
+        color: #2f3c68;
+        width: 70%;
+    }
+    .teamMain .b1{
+        margin-inline: auto;
+        display: flex;
+        align-items: center;
+    }
+/* team Page */
