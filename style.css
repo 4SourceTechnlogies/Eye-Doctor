@@ -1430,7 +1430,6 @@ section {
         padding-right: 1rem;
         position: relative;
     }
-
     .spRight {
         position: relative;
         border-radius: 0 0 0 50px;
@@ -1453,20 +1452,49 @@ section {
         font-weight: 700;
         text-transform: uppercase;
     }
-
     .spMainMT{
-    display: none;
+        display: none;
     }
-
     @media screen and (min-width: 992px) {
     .spLeft::after {
         position: absolute;
         height: 2px;
         opacity: 0.8;
-        width: 40%;
+        animation-name: creep;
+        animation-duration: 2s;
+        animation-iteration-count: 1;
         background-color: #c4c4c4;
         content: '';
+        width: 40%;
         top: 40%;
+    }
+
+    .spLeft.one::after{
+        animation-delay: 0.7s;
+    }
+
+    .spLeft.two::after{
+        animation-delay: 1.1s;
+    }
+     .spLeft.three::after {
+        animation-delay: 1.5s;
+    }
+    .spLeft.four::after {
+        animation-delay: 1.9s;
+    }
+    .spLeft.five::after {
+        animation-delay: 2.3s;
+    }
+                
+
+    @keyframes creep {
+        0%{
+            width: 0%;
+        }
+
+        100%{
+            width: 40%;
+        }
     }
 
     .spRight::before {
@@ -1486,7 +1514,6 @@ section {
         column-gap: 4rem;
     }
     }
-
     @media screen and (min-width: 1440px) {
     .spLeft::after{
         width: 75%;
@@ -1496,19 +1523,16 @@ section {
         column-gap: 10rem;
     }
     }
-
     @media screen and (min-width:1560px) {
     .spLeft::after{
         width: 60%;
     }
     }
-
     @media screen and (min-width: 1850px) {
     .spLeft::after{
         width: 55%;
     }
     }
-
     @media screen and (max-width:991px) {
     .mainWrapper{
         padding: 2rem;
