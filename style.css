@@ -1668,3 +1668,75 @@ section {
     }
     
 /* team Page */
+
+/* Career Page */
+.cForm{
+    padding: 2rem 6rem;
+    background-image: url(images/careerBG.png);
+    background-size: cover;
+    margin-left: 2rem;
+}
+.form-floating>label{
+    padding-left: 1.5rem;
+    color: #07a9f0;
+}
+
+.form-floating>.msg{
+    padding-bottom: 8rem;
+}
+
+.careerPage .mainWrapper{
+    background-image: url(images/careeerMainbg.png);
+    background-size: cover;
+}
+
+.cForm button{
+    width: 25%;
+    margin-inline: auto;
+}
+
+@media screen and (max-width:767px) {
+    .cForm{
+        padding: 2rem;
+        margin: 0;
+    }
+}
+
+/* Contact Page */
+.map{
+    margin-left: 4rem;
+}
+.map iframe{
+    width: 100%;
+}
+.timing{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    transform: translateX(4.5rem);
+    padding: 2rem 4rem;
+    background-image: url(images/timginBg.png);
+    background-size: cover;
+    color: white;
+    align-items: center;
+}
+.timing h4{
+font-family: 'poppins';
+font-weight: 600;
+}
+@media screen and (max-width:991px) {
+    .map{
+        margin: 0;
+    }
+    .timing{
+        transform: translateX(0);
+    }
+}
+
+@media screen and (max-width:767px) {
+    .timing{
+        grid-template-columns: 1fr 1fr;
+        padding: 2rem;
+        overflow-wrap: anywhere;
+        column-gap: 2.5rem;
+    }
+}
