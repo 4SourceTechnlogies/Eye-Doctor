@@ -24,8 +24,9 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="animatedCircle.css">
+    
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animatedCircle.css">
 
 
 </head>
@@ -59,7 +60,7 @@
                     <img src="images/Logo.png" alt="">
                 </a>
 
-                <button class="mainNavToggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
+                <button  class="mainNavToggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -110,7 +111,7 @@
             </div>
         </nav>
 
-        <div id="bannerCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div id="bannerCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#bannerCarousel" data-bs-slide-to="0" class="active"
                     aria-current="true" aria-label="Slide 1"></button>
@@ -123,7 +124,7 @@
                 <div class="carousel-item active">
                     <div class="carouselInnerFlex ">
                         <div class="carouselInnerFlexLeft one">
-                            <div class="carouselInnerLeftText">
+                            <div class="carouselInnerLeftText" data-aos="fade-right">
                                 <h1>Take care of <span>YOUR HEALTH</span></h1>
                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint, natus explicabo.
                                     Eligendi, quidem? Omnis, at.</p>
@@ -140,7 +141,7 @@
                 <div class="carousel-item">
                     <div class="carouselInnerFlex">
                         <div class="carouselInnerFlexLeft two">
-                            <div class="carouselInnerLeftText">
+                            <div class="carouselInnerLeftText" data-aos="fade-right" data-aos-delay="800">
                                 <h1>We care For <br><span>YOUR VISION</span></h1>
                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint, natus explicabo.
                                     Eligendi, quidem? Omnis, at.</p>
@@ -155,7 +156,7 @@
                 <div class="carousel-item">
                     <div class="carouselInnerFlex">
                         <div class="carouselInnerFlexLeft three">
-                            <div class="carouselInnerLeftText">
+                            <div class="carouselInnerLeftText" data-aos="fade-right" data-aos-delay="1200">
                                 <h1>We care For <br><span>YOUR VISION</span></h1>
                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint, natus explicabo.
                                     Eligendi, quidem? Omnis, at.</p>
@@ -214,6 +215,76 @@
         <section
         class="elementor-section elementor-top-section elementor-element elementor-element-5972315 elementor-hidden-tablet elementor-hidden-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default"
         data-id="5972315" data-element_type="section" data-settings="{&quot;_ha_eqh_enable&quot;:false}">
+
+        <div class="circleWrapper">
+            <div class="container animatedCircle">
+                <div class="icon">
+                    <div class="imgBx active" style="--i:1">
+                        <div class="imgWrapper">
+                            <embed src="images/Untitled-1.svg" type="">
+                        </div>
+                    </div>
+                    <div class="imgBx" style="--i:2">
+                        <div class="imgWrapper">
+                            <embed src="images/corneaBall.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="imgBx" style="--i:3">
+                        <div class="imgWrapper">
+                            <embed src="images/glaucoma.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="imgBx" style="--i:4">
+                        <div class="imgWrapper">
+                            <embed src="images/neuroOptho.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="imgBx" style="--i:5">
+                        <div class="imgWrapper">
+                            <embed src="images/orthoOptics.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="imgBx" style="--i:6">
+                        <div class="imgWrapper">
+                            <embed src="images/Oculoplast.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="animatingCircle">
+        
+                </div>
+            </div>
+        
+            <div class="content">
+                <div class="contentBx">
+        
+                    <div class="iconText" style="--i:1">
+                        <h2>Cataract</h2>
+                    </div>
+                    <div class="iconText" style="--i:2">
+                        <h2>Cornea</h2>
+                    </div>
+                    <div class="iconText" style="--i:3">
+                        <h2>Glaucoma</h2>
+                    </div>
+                    <div class="iconText" style="--i:4">
+                        <h2>Opthalmic <br> surgery</h2>
+                    </div>
+                    <div class="iconText" style="--i:5; text-align: right;">
+                        <h2>Neovascular <br> AMD</h2>
+                    </div>
+                    <div class="iconText" style="--i:6">
+                        <h2>Diabetic <br> Rhinopathy</h2>
+                    </div>
+                    <div class="headingText">
+                        <h2>Our <span>Specialities</span></h2>
+                    </div>
+                </div>
+        
+            </div>
+        </div>
+
         <div class="elementor-container elementor-column-gap-default">
             <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-87c3946"
                 data-id="87c3946" data-element_type="column">
@@ -539,14 +610,17 @@
                     rerum officiis animi iste eligendi odio modi. Non magni beatae, fugit quasi esse quae, corporis
                     sunt deserunt obcaecati inventore adipisci dignissimos provident accusantium dicta. Quas, porro
                     similique deleniti atque sequi ducimus quo iusto ipsum quam optio!</p>
-                <button class="readMoreBtn bgWhite" data-aos="fade-left" data-aos-delay="1600">Read More</button>
+                <a href="about.html">
+                    <button class="readMoreBtn bgWhite" data-aos="fade-left" data-aos-delay="1600">Read More</button>
+                </a>
+                
             </div>
         </div>
         </section>
 
         <!-- gallery section -->
         <section class="gallery">
-        <h1 data-aos="fade-up" data-aos-delay="200">Our <span>GALLERY</span></h1>
+        <h1 data-aos="fade-up" data-aos-delay="200" data-aos-offset="200">Our <span>GALLERY</span></h1>
         <div class="galleryWrapper">
             <div class="row">
                 <div class="col-lg-4 col-sm-12" data-aos="fade-up" data-aos-delay="400"><img src="images/gallery1.png"
@@ -556,9 +630,12 @@
                 <div class="col-lg-4 col-sm-12" data-aos="fade-up" data-aos-delay="800"><img src="images/gallery3.png"
                         alt=""></div>
             </div>
-            <button class="readMoreBtn bgWhite">
-                view More
-            </button>
+            <a href="gallery.html">
+                <button class="readMoreBtn bgWhite">
+                    View More
+                </button>
+            </a>
+            
         </div>
         </section>
 
@@ -951,11 +1028,18 @@
                         </li>
                         <li>
                             <div class="socials">
-                                <i class="fa-brands fa-square-facebook"></i>
-                                <i class="fa-brands fa-square-twitter"></i>
-                                <i class="fa-brands fa-instagram"></i>
-                                <i class="fa-brands fa-youtube"></i>
-                                <i class="fa-brands fa-linkedin"></i>
+                                <ul>
+                                    <li><a href=""><img src="images/fb.png" alt="">
+                                    <img src="images/fbHover.png" alt="" class="hoverIcon"></a></li>
+                                    <li><a href=""><img src="images/twitter.png" alt="">
+                                    <img src="images/twittterHover.png" alt="" class="hoverIcon"></a></li>
+                                    <li><a href=""><img src="images/g.png" alt="">
+                                    <img src="images/gHover.png" alt="" class="hoverIcon"></a></li>
+                                    <li><a href=""><img src="images/pinterest.png" alt="">
+                                    <img src="images/pinterestHover.png" alt="" class="hoverIcon"></a></li>
+                                    <li><a href=""><img src="images/youtube.png" alt="">
+                                        <img src="images/youtubHover.png" alt="" class="hoverIcon"></a></li>
+                                </ul>
                             </div>
                             <div></div>
                         </li>
