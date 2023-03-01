@@ -57,7 +57,7 @@ if ($(window).height() !== screen.height) {
 
 // Animated circle Intersection obserrver
 
-var circle = document.getElementsByClassName(".animatedCircle");
+var circle = document.querySelector(".animatedCircle");
 var imgBoxes = document.querySelectorAll(".imgBx");
 
 const circleOptions = {
@@ -77,8 +77,7 @@ const circleObserver = new IntersectionObserver(function (
   });
 },
 circleOptions);
-
-circleObserver.observe(circle);
+circleObserver.observe(circle)
 
 
 
