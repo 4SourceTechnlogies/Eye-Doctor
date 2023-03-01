@@ -8,10 +8,11 @@ $(".mainNavToggler").click(function () {
 // Zoom Function
 
 
-$(".galleryMain .zoomUp").click(function () {
-  var imgSrc = $(this).attr("src");
+$(".zoomUp").click(function () {
+  var imgSrc = ($(this)).attr("src");
   $(".clickedImg").attr("src", imgSrc);
   $(".fade").addClass("show");
+  console.log(imgSrc)
 });
 
 $(".zoomBtn").click(function () {
@@ -78,6 +79,7 @@ const circleObserver = new IntersectionObserver(function (
 },
 circleOptions);
 circleObserver.observe(circle)
+
 
 
 
