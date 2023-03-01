@@ -140,15 +140,15 @@
     <div class="galleryMainWrapper">
         <h1>We have gathered many beautiful moments <span>during our journey</span></h1>
         <div class="galleryMain">
-            <div data-aos="flip-left" data-aos-delay="200"><img src="images/galleryMain1.png" alt=""></div>
-            <div data-aos="flip-left" data-aos-delay="400"><img src="images/galleryMain2.png" alt=""></div>
-            <div data-aos="flip-left" data-aos-delay="600"><img src="images/galleryMain3.png" alt=""></div>
-            <div data-aos="flip-left" data-aos-delay="800"><img src="images/galleryMain4.png" alt=""></div>
-            <div data-aos="flip-left" data-aos-delay="1000"><img src="images/galleryMain5.png" alt=""></div>
-            <div data-aos="flip-left" data-aos-delay="1200"><img src="images/galleryMain6.png" alt=""></div>
-            <div data-aos="flip-left" data-aos-delay="1400"><img src="images/galleryMain7.png" alt=""></div>
-            <div data-aos="flip-left" data-aos-delay="1600"><img src="images/galleryMain8.png" alt=""></div>
-            <div data-aos="flip-left" data-aos-delay="1800"><img src="images/galleryMain9.png" alt=""></div>
+            <div data-aos="flip-left" data-aos-delay="200"> <img class="zoomUp" src="images/galleryMain1.png" alt=""> </div>
+            <div data-aos="flip-left" data-aos-delay="400"> <img class="zoomUp" src="images/galleryMain2.png" alt=""> </div>
+            <div data-aos="flip-left" data-aos-delay="600"> <img class="zoomUp" src="images/galleryMain3.png" alt=""> </div>
+            <div data-aos="flip-left" data-aos-delay="800"> <img class="zoomUp" src="images/galleryMain4.png" alt=""> </div>
+            <div data-aos="flip-left" data-aos-delay="1000"> <img class="zoomUp"  src="images/galleryMain5.png" alt=""></div>
+            <div data-aos="flip-left" data-aos-delay="1200"> <img class="zoomUp"  src="images/galleryMain6.png" alt=""></div>
+            <div data-aos="flip-left" data-aos-delay="1400"> <img class="zoomUp"  src="images/galleryMain7.png" alt=""></div>
+            <div data-aos="flip-left" data-aos-delay="1600"> <img class="zoomUp"  src="images/galleryMain8.png" alt=""></div>
+            <div data-aos="flip-left" data-aos-delay="1800"> <img class="zoomUp"  src="images/galleryMain9.png" alt=""></div>
         </div>
     </div>
 
@@ -391,13 +391,60 @@
         <div class="text-muted">© 2019 eye doctors institute . All Rights Reserved.</div>
         <div class="text-muted">Digital Partner 4source Technologies</div>
     </section>
+
+    <!-- Modal -->
+    <div class="modal fade " id="galleryModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+        aria-hidden="true">
+
+        <div class="modal-header">
+            <div class="expandBtn">
+                <button>
+                    <i class="fa-solid fa-expand"></i>
+                    <i class="fa-solid fa-compress"></i>
+                </button>
+            </div>
+            <div class="shareBtn"><i class="fa-solid fa-share"></i>
+                <div class="shareDiv">
+                    <ul>
+                        <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-whatsapp"></i></a></li>
+                        <li><a href=""><i class="fa-solid fa-download"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="zoomBtn"><i class="plusIcon fa-solid fa-magnifying-glass-plus"></i>
+                <i class="minusIcon fa-solid fa-magnifying-glass-minus"></i>
+            </div>
+            <div class="closeBtn"><i class=" fa-solid fa-xmark"></i>
+            </div>
+        </div>
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            
+
+            <div class="modal-content">
+                
+                <div class="modal-body">
+                    <div class="body">
+                        <img src="images/galleryMain1.png" alt="" class="clickedImg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+    integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="index.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
         AOS.init({
             duration: 800
         });
     </script>
-    <script src="index.js"></script>
+    
 </body>
 </html>
