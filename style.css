@@ -345,7 +345,7 @@ body {
     #bannerCarousel {
         /* margin-inline: 7.5rem 5rem; */
         transform: translateX(2.25rem);
-        padding-block: 6.5rem 0;
+        padding-block: 1.7rem 0;
     }
 
     .carouselInnerFlex {
@@ -364,7 +364,7 @@ body {
         background-repeat: no-repeat;
         background-size: 70%;
         background-position: 12.5rem 0;
-        height: 25rem;
+        height: 30rem;
         padding-inline: 4rem;
     }
 
@@ -459,6 +459,7 @@ body {
 
     .aboutRight {
         padding-inline: 2.5rem 7rem;
+        text-align: justify;
     }
 
     @media only screen and (max-width: 1024px) {
@@ -614,8 +615,6 @@ body {
     #testimonialCarousel .carousel-item {
         text-align: center;
         align-items: center;
-        display: flex;
-        flex-direction: column;
         row-gap: 2rem;
     }
 
@@ -718,6 +717,7 @@ body {
 
     .doctorWrapper .card {
         border-radius: 0 0 0 50px;
+        height: 100%;
     }
 
     .doctorWrapper .card-footer {
@@ -725,6 +725,8 @@ body {
         background-color: #e8e8eb;
         transition: 0.3s ease;
         border-radius: 0 0 0 50px;
+        padding: 0.5rem 0;
+        height: 100%;
     }
 
     .doctorName {
@@ -740,6 +742,10 @@ body {
 
     .doctor-title {
         font-size: 0.8rem;
+    }
+
+    .doctor-title p{
+        margin: 0;
     }
 
     .doctorWrapper .card:hover .card-footer:not(.doctorName) {
@@ -1170,7 +1176,7 @@ body {
     }
 
     .aboutRight button{
-        margin-top: 8rem;
+        margin-block: 1rem;
     }
 
     @media only screen and (max-width: 991px) {
