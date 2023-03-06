@@ -439,9 +439,6 @@ button:hover {
 }
 
 @media screen and (min-width: 1440px) {
-    .carouselInnerFlexLeft{
-        height: 40rem;  
-    }
 
     #bannerCarousel{
         padding-block: 6rem 0;
