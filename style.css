@@ -415,7 +415,7 @@ button:hover {
     }
 }
 
-@media screen and (max-width:767px) {
+@media only screen and (max-width:767px) {
     .carouselInnerLeftText {
         width: 100%;
     }
@@ -438,13 +438,14 @@ button:hover {
     }
 }
 
-@media screen and (min-width: 1440px) {
+@media only screen and (min-width: 1440px) {
 
     #bannerCarousel{
         padding-block: 6rem 0;
     }
     .bannerWrapper{
         min-height: min-content;
+    }
 }
 /* banner Carousel */
 
