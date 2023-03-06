@@ -443,6 +443,8 @@ button:hover {
     #bannerCarousel{
         padding-block: 6rem 0;
     }
+    .bannerWrapper{
+        min-height: min-content;
 }
 /* banner Carousel */
 
