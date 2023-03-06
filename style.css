@@ -448,7 +448,7 @@ button:hover {
 
 /* About Us */
 .aboutWrapper {
-    display: flex;
+    display: flex!important;
     flex-direction: row;
     transform: translateX(4rem);
 }
