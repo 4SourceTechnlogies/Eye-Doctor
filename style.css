@@ -438,11 +438,11 @@ button:hover {
     }
 }
 
-/* @media screen and (min-width: 1440px) {
+@media screen and (min-width: 1440px) {
 
     #bannerCarousel{
         padding-block: 6rem 0;
-    } */
+    }
 }
 /* banner Carousel */
 
