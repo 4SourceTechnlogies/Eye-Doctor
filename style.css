@@ -662,14 +662,14 @@ figcaption i {
 
 #testimonialCarousel .carousel-indicators{
     gap: 0.5rem;
-    bottom; -3rem;
+    bottom: -3rem;
     left: 33%;
-    margin-left; 0;
+    margin-left: 0;
     transform: translateX(-50%);
 }
 
 #testimonialCarousel .carousel-indicators button{
-    border-radius; 50%;
+    border-radius: 50%;
     border-color: white;
 }
 @media only screen and (max-width:1024px) {
