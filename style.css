@@ -345,7 +345,7 @@ button:hover {
 #bannerCarousel {
     /* margin-inline: 7.5rem 5rem; */
     transform: translateX(2.25rem);
-    padding-block: 2.7rem 0!important;
+    padding-block: 1.7rem 0;
 }
 
 .carouselInnerFlex {
@@ -438,6 +438,15 @@ button:hover {
     }
 }
 
+@media screen and (min-width: 1440px) {
+    .carouselInnerFlexLeft{
+        height: 40rem;  
+    }
+
+    #bannerCarousel{
+        padding-block: 10rem 0;
+    }
+}
 /* banner Carousel */
 
 /* About Us */
@@ -960,6 +969,12 @@ figcaption i {
     .contactBanner h1 {
         font-size: 1.7rem;
     }
+}
+
+@media screen and (min-width: 1900px) {
+    .contactBanner {
+            padding: 5rem 4rem;
+        }
 }
 
 /* Contact section */
