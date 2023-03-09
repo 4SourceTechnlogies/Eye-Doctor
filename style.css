@@ -1717,18 +1717,46 @@ figcaption i {
     .spCard {
         column-gap: 10rem;
     }
+        @keyframes creep {
+            0% {
+                width: 0%;
+            }
+    
+            100% {
+                width: 75%;
+            }
+        }
 }
 
 @media screen and (min-width:1560px) {
     .spLeft::after {
         width: 60%;
     }
+        @keyframes creep {
+            0% {
+                width: 0%;
+            }
+    
+            100% {
+                width: 60%;
+            }
+        }
 }
 
 @media screen and (min-width: 1850px) {
     .spLeft::after {
-        width: 55%;
+        width: 50%;
     }
+
+        @keyframes creep {
+            0% {
+                width: 0%;
+            }
+    
+            100% {
+                width: 50%;
+            }
+        }
 }
 
 @media screen and (max-width:991px) {
