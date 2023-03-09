@@ -441,7 +441,7 @@ button:hover {
 @media only screen and (min-width: 1440px) {
 
     #bannerCarousel{
-        padding-block: 6rem 0;
+        padding-block: 7.25rem 0;
     }
     .bannerWrapper{
         min-height: min-content;
@@ -643,6 +643,7 @@ figcaption i {
     text-align: center;
     align-items: center;
     row-gap: 2rem;
+    height: 20rem;
 }
 
 .testimonialRightBGimg img {
@@ -671,6 +672,9 @@ figcaption i {
 #testimonialCarousel .carousel-indicators button{
     border-radius: 50%;
     border-color: white;
+    border: none;
+    height: 10px;
+    width: 10px;
 }
 @media only screen and (max-width:1024px) {
     .testimonialRight {
